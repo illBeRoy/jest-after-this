@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "it's like afterEach, but for the current test",
   "main": "dist/index.js",
+  "keywords": ["jest", "tests", "testing", "tdd"],
   "repository": "git@github.com:illberoy/jest-after-this.git",
   "author": "Roy Sommer",
   "license": "MIT",
