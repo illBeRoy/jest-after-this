@@ -196,11 +196,8 @@ describe('afterThis dynamic teardown hook', () => {
 
   it('should not throw if you are only importing, but not using afterThis in a non-jest file', async () => {
     const file = tsFile(`
-    import { afterThis } from 'jest-after-this';
-
-    afterThis(() => {
+      import { afterThis } from 'jest-after-this';
       console.log(afterThis);
-    });
     `);
 
     const results = await runNode(file);
