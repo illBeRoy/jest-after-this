@@ -1,5 +1,8 @@
 <p align="center">
 <img src="./logo.svg" />
+<br />
+<img src="https://img.shields.io/npm/v/jest-after-this" />
+<img src="https://img.shields.io/github/workflow/status/illBeRoy/jest-after-this/Node.js%20CI" />
 </p>
 
 ## About
