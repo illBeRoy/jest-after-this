@@ -201,6 +201,6 @@ describe('afterThis dynamic teardown hook', () => {
     `);
 
     const results = await runNode(file);
-    expect(results.exitCode).toBe(0);
+    expect(results.exitCode).toBe(1);
   });
 });
