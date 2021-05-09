@@ -3,7 +3,7 @@
 </p>
 
 ## About
-`jest-after-this` is an extension to `jest` that gives you a new lifecycle hook: `afterThis`. This hook allows you to schedule code that will run after the current test is over. Think about it as something similary to `afterEach`, except you use it dynamically from within the test, and you can use it for as many times as you need.
+`jest-after-this` is an extension to `jest` that gives you a new lifecycle hook: `afterThis`. This hook allows you to schedule code that will run after the current test is over. You can think about it as something similar to `afterEach`, except you use it dynamically from within the test, and you can use it for as many times as you need.
 
 The benefits of this approach are:
 1. You can use this to handle side effects after the test is over (e.g. delete temp test files, remove records from memory, and more)
