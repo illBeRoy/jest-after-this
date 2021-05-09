@@ -9,7 +9,11 @@
   "private": false,
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "release": "release-it"
+  },
+  "peerDependencies": {
+    "jest": "*"
   },
   "devDependencies": {
     "@types/dedent": "^0.7.0",
