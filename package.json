@@ -1,6 +1,6 @@
 {
   "name": "jest-after-this",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "it's like afterEach, but for the current test",
   "main": "dist/index.js",
   "keywords": [
@@ -9,10 +9,12 @@
     "testing",
     "tdd"
   ],
-  "repository": "git@github.com:illberoy/jest-after-this.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/illBeRoy/jest-after-this.git"
+  },
   "author": "Roy Sommer",
   "license": "MIT",
-  "private": false,
   "scripts": {
     "build": "tsc",
     "test": "jest",
