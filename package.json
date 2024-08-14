@@ -1,6 +1,6 @@
 {
   "name": "jest-after-this",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "it's like afterEach, but for the current test",
   "main": "dist/index.js",
   "keywords": [
